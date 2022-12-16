@@ -1,0 +1,141 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2;
+    color: grey; 
+    font-size:15 px;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:300;
+    letter-spacing:1px;
+    text-transform: uppercase;
+    color:goldenrod;
+}
+
+a{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+img{
+    width:50%;
+}
+
+small{
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+    letter-spacing: 1px;
+    font-weight:300;
+}
+
+.heading-small{
+    font-size:20px;
+    letter-spacing: 1px;
+}
+
+section{
+    padding-top:120px;
+    padding-bottom:120px;
+
+}
+
+.logo-text{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    text-transform:uppercase;
+    color:goldenrod;
+}
+
+.navbar{
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
+}
+
+.navbar .nav-link{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.navbar-nav .nav-link.active{
+    font-family:'Times New Roman', Times, serif;
+    color:goldenrod;
+}
+
+#home{
+    min-height:90vh;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    background: linear-gradient(rgb(173, 216, 230),rgba(173, 216, 230, 0.3)),url(/images/hero-img.jpg);
+}
+
+
+img[src="/images/hero-img.jpg"] { 
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:50px;
+    width:40%;
+    
+}
+
+.Me{
+    color:#F5F5F5;
+    font-weight:300;
+}
+
+.Me-text{
+    color:#F5F5F5;
+    font-weight:300;
+    margin:15px;
+}
+
+.btn{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:300;
+    font-size:15px;
+    text-transform:uppercase;
+    padding: 10px 20px;
+    border-radius:0;
+}
+
+.btn-brand{
+    background-color:goldenrod;
+    color: #F5F5F5;
+}
+
+.btn-brand:hover{
+    background-color:goldenrod;
+    color: #F5F5F5;
+}
+
+.project-title{
+    justify-content: center;
+    text-align: center;
+}
+
+.icons{
+    width: 80px;
+    height: 80px;
+    background-color:goldenrod;
+    color: #F5F5F5;
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:50px;
+}
+
+.project-container { 
+    margin:5%;
+
+  }
+
+.project{ 
+    text-align: center;
+    justify-content: center;  
+}
