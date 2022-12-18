@@ -70,7 +70,8 @@ section{
     background-size:cover;
     background-position:center;
     background-attachment: fixed;
-    background: linear-gradient(rgb(173, 216, 230),rgba(173, 216, 230, 0.3)),url(images/hero-img.jpg);
+    background-color:#AEC6CF;
+    /* background: linear-gradient(rgb(173, 216, 230),rgba(173, 216, 230, 0.3)),url(images/hero-img.jpg); */
 }
 
 
