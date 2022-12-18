@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>IMD CA</title>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+</head>
+
+<body>
+    <h1>IMD CA Documentation</h1>
+    <h2>bootstrap functionality</h2>
+    <ul>
+        <li>bootstrap Navbar</li>
+        <li>Scroll spy</li>
+        <li>Modal</li>
+        <li>Grid functionality</li>
+        <li>bootstrap Navbar</li>
+        <li>Modal</li>
+        <li>Grid functionality</li>
+        <li>Cards</li>
+        <li>tab list</li>
+        <li>scrollable table</li>
+        <li>use of bootstrap in built row coloumn interaction</li>
+    </ul>
+
+    <h2>JavaScript functionality</h2>
+
+    <ul>
+        <li>Reactive Tab list</li>
+        <li>carousel</li>
+        <li>Modal</li>
+    </ul>   
+
+    <a href="https://x00162597vishvajitsundarrajan.github.io/IMD_CA_2022/">project link</a>
+</body>
+
+</html>
