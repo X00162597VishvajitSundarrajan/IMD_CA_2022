@@ -3,8 +3,8 @@ body{
     line-height: 2;
     color: grey; 
     font-size:15 px;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -20,9 +20,9 @@ a{
     font-weight: 300;
 }
 
-img{
+/* img{
     width:50%;
-}
+} */
 
 small{
     font-family:'Times New Roman', Times, serif;
@@ -37,7 +37,7 @@ small{
 }
 
 section{
-    padding-top:120px;
+    padding-top:80px;
     padding-bottom:120px;
 
 }
@@ -78,6 +78,7 @@ img[src="/images/hero-img.jpg"] {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding-top:100px;
     padding-bottom:50px;
     width:40%;
     
@@ -130,12 +131,103 @@ img[src="/images/hero-img.jpg"] {
     font-size:50px;
 }
 
-.project-container { 
-    margin:5%;
-
-  }
+.project-container{ 
+    padding-left:1.5%;
+    padding-right:1.5%;
+}
 
 .project{ 
     text-align: center;
     justify-content: center;  
+    padding-bottom:30px;
 }
+
+
+.card-img-top{
+    height:600px;
+    width:804x;
+}
+
+#experience{
+    min-height:90vh;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-color:#AEC6CF;
+}
+
+.experience{ 
+    color: #F5F5F5;
+    text-align: center;
+    justify-content: center;  
+    padding-bottom:20px;
+}
+
+.goals{ 
+    color: #F5F5F5;
+    text-align: center;
+    justify-content: center;  
+    padding-bottom:50px;
+}
+
+.card-title{
+    color:#AEC6CF;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    }
+
+.table-wrapper-scroll-y {
+display: block;
+}
+
+.education-title{
+    justify-content: center;
+    text-align: center;
+    color: goldenrod;
+    padding-bottom:30px;
+}
+
+.education-university{
+    justify-content: center;
+    text-align: center;
+    color: goldenrod;
+    padding-bottom:30px;
+}
+
+#carouselDark{
+    width:60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#hobbies{
+    min-height:90vh;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-color:#AEC6CF;
+}
+
+.hobbies-title{
+    color: #F5F5F5;
+    text-align: center;
+    justify-content: center;
+    padding-top:0px;  
+    padding-bottom:20px;
+}
+
+.carousel-images{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:500;
+    letter-spacing:1px;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+
+

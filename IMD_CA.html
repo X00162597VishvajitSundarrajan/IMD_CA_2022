@@ -1,130 +1,597 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="boxicons.min.css"></link>
+<head>
+  <title>Page Title</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="boxicons.min.css">
+  </link>
 
 </head>
+
 <body data-bs-spy="scroll" data-bs-target=".navbar">
-    <nav class="navbar fixed-top navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand logo-text" href="#">Vishva</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+  <nav class="navbar fixed-top navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand logo-text" href="#">Vishva</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-itm=em">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-itm=em">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-itm=em">
+            <a class="nav-link" href="#experience">Work Experience</a>
+          </li>
+          <li class="nav-itm=em">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-itm=em">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+          <li class="nav-itm=em">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</body>
+<section id="home">
+  <div class="container-fluid text-center">
+    <div class="row justify-content-center">
+      <div class="col">
+        <img src="/images/hero-img.jpg" alt="hero">
+        <h1 class="Me">VISHVAJIT SUNDARRAJAN</h1>
+        <p Class="Me-text">I am a hard working and honest 4th Year Computing with Machine Learning and Artifical
+          Intelligence Student who is always willing to learn new skills.
+        <p>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-brand" data-toggle="modal" data-target="#exampleModalCenter">
+            Contact
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
 
-                <li class="nav-itm=em">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-itm=em">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-itm=em">
-                    <a class="nav-link" href="#experience">Work Experience & Future Interest</a>
-                </li>
-                <li class="nav-itm=em">
-                    <a class="nav-link" href="#hobbies">Education</a>
-                </li>
-                <li class="nav-itm=em">
-                    <a class="nav-link" href="#hobbies">Hobbies</a>
-                </li>
-                <li class="nav-itm=em">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-
-
-            </ul>
+          <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Contact Infromation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h5>Name</h5>
+                <p>Vishvajit Sundarrajan</p>
+                <h5>Email</h5>
+                <p>X00162597@mytudublin.ie</p>
+                <h5>Phone Number</h5>
+                <p>089 9617492</p>
+                <h5>LinkedIn</h5><a href="https://www.linkedin.com/feed/">linkedIn</a>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
           </div>
         </div>
-    </nav>
-
-    </body>
-    <section id="home">
-        <div class="container-fluid text-center">
-            <div class="row justify-content-center">
-                <div class="col">
-                    <img src="/images/hero-img.jpg" alt="hero">
-                    <h1 class="Me">VISHVAJIT SUNDARRAJAN</h1>
-                    <p Class="Me-text">I am a hard working and honest 4th Year Computing with Machine Learning and Artifical Intelligence Student who is always willing to learn new skills.<p>
-                    <a href="#contact" class="btn btn-brand">Contact</a>
-                
-                </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects">
+  <h1 class="project">My Projects</h1>
+  <div class="container-fluid project-container">
+    <div class="row ml-5">
+      <div class="col-4">
+        <div class="icons">
+          <i class='bx bx-analyse'></i>
+        </div>
+        <h4 class="heading-small mt-5 ">Data Analysis Project</h4>
+        <p>Developed hypothesis statement to determine if students enviroments impacted there grades.I performed dataset
+          preprosessing.Then performed exploratory analysis using Jupyter notebook
+          Conducted correlation analysis and examined the findings to see if the results were sginificant enough to
+          reject or accept the null hypothesis statement.
+        </p>
+      </div>
+      <div class="col-4">
+        <div class="icons">
+          <i class='bx bx-test-tube'></i>
+        </div>
+        <h4 class="heading-small mt-5 ">Software Quality Assurance Testing Project</h4>
+        <p>Tested the valorant webpage using selenium webdriver. Wrote relevant unit tests in the Azure DevOps testing
+          suite.Then using visual studios and selenium webriver wrote automated scripting tests to test the webpages
+          functionality.</p>
+      </div>
+      <div class="col-4">
+        <div class="icons">
+          <i class='bx bx-book-open'></i>
+        </div>
+        <h4 class="heading-small mt-5 ">Book Store Project </h4>
+        <p>Worked in a team of 3 to develop an E-Commerce website using the Django framework for online sales of
+          books.The web shop contains search, pagination, cart, order functionality.Includes Payments for books
+          purchased via Stripe & PayPal.Tested the website functionality with selenium IDE.Utilised Python, Powershell,
+          HTML, CSS and Bootstrap4, JavaScript
+        </p>
+      </div>
+      <div class="col-4">
+        <div class="icons">
+          <i class='bx bx-shopping-bag'></i>
+        </div>
+        <h4 class="heading-small mt-5 ">Web Shop Project</h4>
+        <p>Developing an eCommerce website in Django for online sales of pillows.The e-commerce shop displays available
+          pillows types for customers, includes a search engine for pillow selection and a cart functionality to select
+          items for purchase.Payments for pillows purchased via Stripe a payment system.Utilised Python, Powershell,
+          HTML, CSS and Bootstrap4.
+        </p>
+      </div>
+      <div class="col-4">
+        <div class="icons">
+          <i class='bx bx-id-card'></i>
+        </div>
+        <h4 class="heading-small mt-5 ">Student Organisation Website Project</h4>
+        <p>Worked collaboratively with another team member on designing a Django framework based Students Organisation
+          website for student activities, charity events, etc. using HTML, CSS, Bootstrap4 and Python.</p>
+      </div>
+      <div class="col-4">
+        <div class="icons">
+          <i class='bx bx-party'></i>
+        </div>
+        <h4 class="heading-small mt-5 ">Events Website Project</h4>
+        <p>Developed a static website using HTML and CSS on Visual Studio Code framework that allows users to browse
+          different events – Private Parties, Weddings and Festivals</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="experience">
+  <div class="container-fluid project-container">
+    <h1 class="experience">Work Experience</h1>
+    <h4 class="goals">The area of work I am interested in pursuing is machine learning and artifical intelligence.I feel
+      this area although has been out for a while there is a lot of room for growth and improvements in this area.
+      Aswell as the whole process of building models and seeing the impact they have on real world data is fascinating
+      to me.</h4>
+    <div class="card-deck">
+      <div class="row ml-5">
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="/images/Dell.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Dell Internship</h5>
+              <p class="card-text">Undergraduate Internship in DELL Technologies. Some of the significant tasks
+                completed include
+                developing the MIM bridge form feature using microsoft card builder and automated the old process with
+                dells database API integration, creating and working on Power Bi to create dashboards and performed
+                Functional and End to End testing using both JIRA and Azure DevOps.
+                I also created a feature using power automate that automatically creates a teams call and populated a
+                One note with data from the api.
+              </p>
+              <p class="card-text"><small class="text-muted">Feb-August 2022</small></p>
             </div>
+          </div>
         </div>
-    </section>
-    <section id="projects">
-        <h1 class="project">My Projects</h1>
-        <div class="container project-container">
-                <p>1</p>
-                <!-- <div class="col"></div>
-                <div class="icons">
-                    <i class='bx bx-book-open'></i>
-                </div>
-                <h4 class="heading-small mt-5 ">Book Store Project</h4>
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, assumenda nam? Possimus eius sapiente aliquid? Eius cum qui impedit necessitatibus!</p> -->
-                <!-- <div class="col"></div>
-                <div class="icons">
-                    <i class='bx bx-book-open'></i>
-                </div> -->
-                <!-- <h4 class="heading-small mt-5 ">Book Store Project</h4> -->
-                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, assumenda nam? Possimus eius sapiente aliquid? Eius cum qui impedit necessitatibus!</p> -->
-                <!-- <div class="col"></div>
-                <div class="icons">
-                    <i class='bx bx-book-open'></i>
-                </div> -->
-                <!-- <h4 class="heading-small mt-5 ">Book Store Project</h4> -->
-                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, assumenda nam? Possimus eius sapiente aliquid? Eius cum qui impedit necessitatibus!</p> -->
-                <!-- <div class="col"></div> -->
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="/images/fish_chips.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Cassoni's Fish & Chips</h5>
+              <p class="card-text">I worked at Cassoni's Fish & Chips. I was in charge of food preperation. I gained
+                many useful skills including team work,communiaction and time management.</p>
+              <p class="card-text"><small class="text-muted">Jan-Feb 2019</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="/images/coding.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Coder Dojo</h5>
+              <p class="card-text">I volunteered as a mentor at CoderDojo, Bray Developed communication skills through
+                teaching young children basic HTML, CSS, Microsoft Microbit.</p>
+              <p class="card-text"><small class="text-muted">Jan-April 2020</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="education">
+  <h1 class="education-title">Education</h1>
+  <h4 class="education-university">Currently studying a Bachelors of Computing With Machine Learning and Artifical
+    Intelligence at Technological University Dublin - Tallaght Campus. Down below is a table of the grades achieved per
+    module over the prior 3 years.</h4>
+  <div class="container-fluid project-container">
 
-                <div class="row ml-5">
-                  <div class="col-4">
-                    <div class="icons">
-                      <i class='bx bx-book-open'></i>
-                    </div>
-                    <h4 class="heading-small mt-5 ">Book Store Project</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, assumenda nam? Possimus eius sapiente
-                      aliquid? Eius cum qui impedit necessitatibus!</p>
-                  </div>
-                  <div class="col-4">
-                    <div class="icons">
-                      <i class='bx bx-book-open'></i>
-                    </div>
-                    <h4 class="heading-small mt-5 ">Book Store Project</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, assumenda nam? Possimus eius sapiente
-                      aliquid? Eius cum qui impedit necessitatibus!</p>
-                  </div>
-                  <div class="col-4">
-                    <div class="icons">
-                      <i class='bx bx-book-open'></i>
-                    </div>
-                    <h4 class="heading-small mt-5 ">Book Store Project</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, assumenda nam? Possimus eius sapiente
-                      aliquid? Eius cum qui impedit necessitatibus!</p>
-                  </div>
-                  <div class="col-4">
-                    <div class="icons">
-                      <i class='bx bx-book-open'></i>
-                    </div>
-                    <h4 class="heading-small mt-5 ">Book Store Project</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, assumenda nam? Possimus eius sapiente
-                      aliquid? Eius cum qui impedit necessitatibus!</p>
-                  </div>
-                  <div class="col-4">
-                    <div class="icons">
-                      <i class='bx bx-book-open'></i>
-                    </div>
-                    <h4 class="heading-small mt-5 ">Book Store Project</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, assumenda nam? Possimus eius sapiente
-                      aliquid? Eius cum qui impedit necessitatibus!</p>
-                  </div>
-                </div>  
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group" id="myList" role="tablist">
+          <a class="list-group-item list-group-item-action active" data-toggle="list" href="#year1" role="tab">Year
+            1</a>
+          <a class="list-group-item list-group-item-action" data-toggle="list" href="#year2" role="tab">Year 2</a>
+          <a class="list-group-item list-group-item-action" data-toggle="list" href="#year3" role="tab">Year 3</a>
+          <a class="list-group-item list-group-item-action" data-toggle="list" href="#year4" role="tab">Year 4</a>
         </div>
-    </section>
+      </div>
+
+      <div class="col-8">
+        <div class="tab-content">
+          <div class="tab-pane active" id="year1" role="tabpanel">
+            <div class="table-wrapper-scroll-y my-custom-scrollbar">
+
+              <table class="table table-bordered table-striped mb-0">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Module</th>
+                    <th scope="col">Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Computer Architecture</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Critical Skills Development</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Business & Information Systems</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Discrete Mathematics 1</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Software Development 1</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Visual Design & User Experience</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Social Media Communications</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Database Fundamentals</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Operating Systems Fundamentals</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Statistics</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Software Development 2</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>Systems Analysis</td>
+                    <td>B</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+
+          </div>
+          <div class="tab-pane" id="year2" role="tabpanel">
+            <div class="table-wrapper-scroll-y my-custom-scrollbar">
+
+              <table class="table table-bordered table-striped mb-0">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Module</th>
+                    <th scope="col">Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Advanced Database Technologies</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Discrete Mathematics 2</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Network Fundamentals</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Software Quality Assurance and Testing</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Software Development 3</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Client-Side Web Development</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Data Administration and Analysis</td>
+                    <td>C+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Management Science</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Routing & Switching Essentials</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Project</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Information Security</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>Software Development 4</td>
+                    <td>B-</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+          <div class="tab-pane" id="year3" role="tabpanel">
+            <div class="table-wrapper-scroll-y my-custom-scrollbar">
+
+              <table class="table table-bordered table-striped mb-0">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Module</th>
+                    <th scope="col">Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Data Structures and Algorithms</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Cloud Services & Distributed Computing</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Data Analysis</td>
+                    <td>C+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Big Data Technologies</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Operating Systems</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Server-Side Web Development</td>
+                    <td>C</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Experiential Learning</td>
+                    <td>PS(Pass)</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+          <div class="tab-pane" id="year4" role="tabpanel">
+            <div class="table-wrapper-scroll-y my-custom-scrollbar">
+
+              <table class="table table-bordered table-striped mb-0">
+
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Module</th>
+                    <th scope="col">Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Applied Machine Learning</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Social Media Analysis</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>DevOps - Continuous Integration and Deployment</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Interactive Media Design & Visualisation</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Information Management</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Project - Data Analytics</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Applied Artificial Intelligence and Deep Learning</td>
+                    <td>A</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Data Analysis and Programming</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>IT Governance and Quality</td>
+                    <td>B+</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Interactive Media Design & Visualisation</td>
+                    <td>B+</td>
+                  </tr>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Project - Data Analytics Specialisation</td>
+                    <td>A</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(function () {
+        $('#myList a:last-child').tab('show')
+      })
+    </script>
+</section>
+
+<section id="hobbies">
+  <h1 class="hobbies-title">Hobbies</h1>
+  <div class="container-fluid project-container">
+    <div id="carouselDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="/images/chess.jpg" class="d-block w-100" alt="chess">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="carousel-images">Chess</h5>
+            <h4 class="carousel-images">I enjoy watching and playing chess online</h4>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/gym1.jpg" class="d-block w-100" alt="Gym">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="carousel-images">Gym</h5>
+            <h4 class="carousel-images">I love to workout as for me it clears the mind</h4>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/ufc.jpg" class="d-block w-100" alt="UFC">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="carousel-images">UFC</h5>
+            <h4 class="carousel-images">Massive UFC fan. Favourite fighter right now is Israel Adeseanya</h4>
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <img src="Images/minions.jpg" class="d-block w-100" alt="Minions Picture">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Minions</h5>
+            <p>An extremely fun and popular movie that kids and adults loved</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/pets.jpg" class="d-block w-100" alt="Secret life of pets Picture">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Secret Life Of Pets</h5>
+            <p>A fun movie about the life of pets that they might be living!</p>
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</section>
+<section id="contact">
+  <div class="container-fluid project-container">
+
+  </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
